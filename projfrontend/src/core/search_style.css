@@ -1,0 +1,452 @@
+
+.nothing{
+    position: relative;
+    top: 30px;
+    left: 10%;
+    
+}
+
+.search-div{
+    width: 100%;
+    height: 92vh;
+    position: relative;
+    display: flex;
+}
+.search-photo{
+    flex:1;
+}
+.search-details{
+    flex: 1;
+    width: 50%;
+    position:relative;
+    top: 20%;
+    left: 8%;
+    padding-left: 20px;
+    
+}
+
+.search-detail-name{
+    width: 60%;
+    padding-left: 20px;
+    border-left: 10px solid rgb(83, 131, 211,0.8);
+}
+
+.photo-poster{
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 22%;
+    left: 44%;
+
+}
+
+.background-photo{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 15%;
+    
+}
+
+.background-photo iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.search-details h5{
+    font-size: 15px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.overview{
+    width: 56%;
+    text-align:justify;
+    padding-left: 20px;
+    
+    border-left: 10px solid rgb(83, 131, 211,0.8);
+}
+
+.imdb{
+    padding-left: 20px;
+    border-left: 10px solid rgb(83, 131, 211,0.8);
+}
+
+
+
+.cast{
+    width: 100%;
+    height: 420px;
+    position: relative;
+   
+}
+
+.cast-empty{
+    width: 300px;
+    left: 40%;
+    position: relative;
+}
+.cast h2{
+    position: relative;
+    left: 6%;
+    top: 2%;
+}
+
+.cast-main{
+    display: flex;
+    margin: 1% 8%;
+    position: relative;
+    overflow: scroll;
+}
+
+.similar{
+    width: 100%;
+    height: 420px;
+    position: relative;
+   
+}
+.similar h2{
+    position: relative;
+    left: 6%;
+    top: 2%;
+}
+
+.similar-main{
+    display: flex;
+    margin: 1% 8%;
+    position: relative;
+    overflow: scroll;
+}
+
+.similar-empty{
+    left: 40%;
+    position: relative;
+    width: 300px;
+}
+
+
+.review{
+    width: 100%;
+    height: 600px;
+    position: relative;
+   
+}
+.review h2{
+    position: relative;
+    left: 6%;
+    top: 2%;
+}
+
+.review-main{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 8%;
+    position: relative;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.review-card{
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: 3% 0%;
+    box-shadow: 0px 0px 10px 0px #888888;
+}
+.review-avtar img{
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    position:absolute;
+    top: 10px;
+    left: 6%;
+}
+
+.review-avtar{
+    flex: 1;
+}
+
+.review-name{
+    flex: 6;
+    text-align: start;
+}
+
+.review-name img{
+    width: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.review-name span{
+    padding: 10px;
+    background-color: #5383d3;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.reviewby{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.reviewbytime{
+    font-size: 13px;
+    font-weight: 200;
+    position: relative;
+    top: -10px;
+}
+
+.review-empty{
+    width: 600px;
+    position: relative;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
+
+.result-page-main{
+    width: 100%;
+    height: auto;
+}
+.result-page-main h2{
+    position: relative;
+    left: 10%;
+    top: 50px;
+}
+.results-main{
+    width: auto;
+    margin: 5% 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:800px){
+    .results-main{
+        width: auto;
+        margin: 12% 14%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        overflow: hidden;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        margin: 10px;
+        width: 100px;
+        height: 225px;
+        min-height: 225px;
+        min-width: 100px;
+        
+    }
+    .card h3{
+        font-size: 10px;
+    }
+    
+    .card-img{
+        overflow: hidden;
+        width: 100px;
+        margin-top: 30px;
+        height: 150px;
+        border-radius: 10px;
+        
+    }
+    .card img{
+        position: relative;
+        width: 100px;
+    }
+    .rated{
+        width: 100%;
+        height: 300px;
+        box-shadow: 30px 0px 20px white;
+        position: relative;
+    }
+    .similar{
+        width: 100%;
+        height: 300px;
+        position: relative;
+       
+    }
+    .upcoming{
+        width: 100%;
+        height: 300px;
+        box-shadow: 30px 0px 20px white;
+        position: relative;
+    }
+    .popular{
+        width: 100%;
+        height: 300px;
+        position: relative;
+       
+    }
+    .cast{
+        width: 100%;
+        height: 400px;
+        top: 80px;
+        position: relative;
+       
+    }
+    .review-empty{
+        width: 400px;
+        left:-5%;
+        position: relative;
+    }
+    .similar-empty{
+        width: 400px;
+        left:-5%;
+        position: relative;
+    }
+    .cast-empty{
+        width: 400px;
+        left:-5%;
+        position: relative;
+    }
+    .nothing{
+        position: relative;
+        top: 10px;
+        left: -60%;
+    }
+    .result-page-main h2{
+        position: relative;
+        left: 10%;
+        top: 50px;
+        font-size: 16px;
+    }
+   
+
+    .search-details{
+        flex: 1;
+        width: 100%;
+        position:relative;
+        top: 0%;
+        left: 5%;
+        
+        
+    }
+    .search-div{
+        width: 100%;
+        height: 96vh;
+        position: relative;
+        display: flex;
+        font-size: 12px;
+        flex-direction: column-reverse;
+    }
+
+    .search-detail-name{
+        width: 60%;
+        padding-left: 20px;
+        border-left: 10px solid rgb(83, 131, 211,0.8);
+    }
+
+    .photo-poster{
+        width: 120px;
+        border-radius: 10px;
+        position: absolute;
+        top: 12%;
+        left: 10%;
+
+    }
+
+    .background-photo{
+        width: 100%;
+        left: 100px;
+        height: 240px;
+        position: relative;
+        top: 15%;    
+    }
+
+    .background-photo iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .search-details h5{
+        font-size: 15px;
+        font-weight: 500;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .overview{
+        width: 70%;
+        text-align:justify;
+        border-left: 10px solid rgb(83, 131, 211,0.8);
+    }
+
+    .imdb{
+        font-size: 16px;
+        border-left: 10px solid rgb(83, 131, 211,0.8);
+    }
+    .review-avtar img{
+        width: 75px;
+        border-radius: 40px;
+        position:absolute;
+        top: 10px;
+        left: 0%;
+    }
+    
+    .review-avtar{
+        flex: 1;
+    }
+    
+    .review-name{
+        flex: 6;
+        margin-left: 50px;
+        text-align: start;
+        width: 100%;
+        overflow-y: auto;
+    }
+    
+    .review-name img{
+        width: 20px;
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+    }
+    
+    .review-name span{
+        padding: 10px;
+        background-color: #5383d3;
+        border-radius: 20px;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .reviewby{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .reviewbytime{
+        font-size: 13px;
+        font-weight: 200;
+        position: relative;
+        top: -10px;
+    }
+    
+    .review-empty{
+        width: 600px;
+        position: relative;
+        left: 25%;
+    }
+
+
+}
